@@ -1,3 +1,7 @@
+## Overview
+
+In this card, you will subscribe to Event Mesh application and assign the related role collections to your account in BTP subaccount.
+
 ## Prerequisites:
 
 - You are the BTP Sub Account Administrator

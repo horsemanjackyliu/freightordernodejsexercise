@@ -1,3 +1,7 @@
+## Overview.
+
+In this card, we will check and assign the required entitlements in the target BTP subaccount.
+
 ## Prerequisites:
 
 - You are the BTP Sub Account Administrator
@@ -24,7 +28,7 @@
 
   ![alt text](image-3.png)
 
-- 4. Check and Assign entitlements of **event mesh** to your subaccount
+- 4. Check and Assign entitlements of **event mesh** to your BTP subaccount
 
   check your subaccount entitlements from event mesh with the following commands
 
@@ -34,7 +38,7 @@
 
   ![alt text](image-4.png)
 
-  If the results **is blank**, please run the following 2 commands to assign **event mesh** etitlements to the subaccount
+  If the results **is blank**, please run the following 2 commands to assign **event mesh** entitlements to the subaccount
 
   ```bash
   btp  assign accounts/entitlement --for-service enterprise-messaging --plan default --amount 1
@@ -43,7 +47,7 @@
 
   ```
 
-- 5. Check and Assign entitlements of **SAP Work Zone Standard** to your subaccount
+- 5. Check and Assign entitlements of **SAP Work Zone Standard** to your BTP subaccount
 
   check your subaccount entitlements from event mesh with the following commands
 
@@ -53,13 +57,13 @@
 
   ![alt text](image-5.png)
 
-  If the results **is blank**, please run the following command to assign **SAP Work Zone Standard** etitlement to the subaccount
+  If the results **is blank**, please run the following command to assign **SAP Work Zone Standard** entitlement to the subaccount
 
   ```bash
   btp  assign accounts/entitlement --for-service SAPWorkZone --plan standard --amount 1
   ```
 
-- 6. Check and Assign entitlements of **SAP Document Management service, integration option** to your subaccount
+- 6. Check and Assign entitlements of **SAP Document Management service, integration option** to your BTP subaccount
 
   check your subaccount entitlements from event mesh with the following commands
 
@@ -69,13 +73,13 @@
 
   ![alt text](image-6.png)
 
-  If the results **is blank**, please run the following command to assign **SAP Document Management service, integration option** etitlement to the subaccount
+  If the results **is blank**, please run the following command to assign **SAP Document Management service, integration option** entitlement to the subaccount
 
   ```bash
   btp  assign accounts/entitlement --for-service sdm --plan standard --amount 1
   ```
 
-- 7. Check and Assign entitlements of **SAP Business Application Studio** to your subaccount
+- 7. Check and Assign entitlements of **SAP Business Application Studio** to your BTP subaccount
 
   check your subaccount entitlements from event mesh with the following commands
 
@@ -85,8 +89,50 @@
 
   ![alt text](image-7.png)
 
-  If the results **is blank**, please run the following command to assign **SAP Business Application Studio** etitlement to the subaccount
+  If the results **is blank**, please run the following command to assign **SAP Business Application Studio** entitlement to the subaccount
 
   ```bash
   btp  assign accounts/entitlement --for-service sapappstudio --plan standard-edition --amount 1
+  ```
+
+- 8. Check and Assign entitlements of **HTML5 Application Repository Service** to your BTP subaccount
+
+  check your subaccount entitlements from event mesh with the following commands
+
+  ```bash
+  btp list accounts/entitlement | grep html5-apps-repo
+  ```
+
+  ![alt text](image-8.png)
+
+  If the results **is blank**, please run the following command to assign **HTML5 Application Repository Service** entitlement to the subaccount
+
+  ```bash
+  btp  assign accounts/entitlement --for-service html5-apps-repo --plan app-runtime --amount 1
+  ```
+
+- 9. Check and Assign entitlements of **Authorization and Trust Management Service** to your BTP subaccount  
+     check your subaccount entitlements from **Authorization and Trust Management Service** with the following commands
+
+  ```bash
+  btp list accounts/entitlement | grep xsuaa
+  ```
+
+  If the results **is blank**, please run the following command to assign **Authorization and Trust Management Service** entitlement to the subaccount
+
+  ```bash
+  btp  assign accounts/entitlement --for-service xsuaa --plan application --amount 1
+  ```
+
+- 10. Check and Assign entitlements of **Destination Service** to your BTP subaccount  
+      check your subaccount entitlements from **Destination Service** with the following commands
+
+  ```bash
+  btp list accounts/entitlement | grep destination
+  ```
+
+  If the results **is blank**, please run the following command to assign **Destination Service** entitlement to the subaccount
+
+  ```bash
+  btp  assign accounts/entitlement --for-service destination --plan lite --amount 1
   ```
