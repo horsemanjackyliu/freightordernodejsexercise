@@ -1,7 +1,13 @@
+//from uri in sdm-key
 @cmisuri = https://api-sdm-di.cfapps.eu10.hana.ondemand.com
-@cmisclientid = sb-59e9fd43-d82c-4b1d-ba3f-84b704ad4de3!b149617|sdm-di-SDM_DI_PROD-prod!b41064
-@cmisclientsecret = 103e5796-1f73-44cf-a000-1888238c8120$qauWiaFuNGFpWmvpAiP7B5E8kNW6FNuJ9xYLwFV6EcM=
-@cmistokenurl = https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com
+
+//from uaa/clientid in sdm-key
+@cmisclientid = sb-9c868b6c-506a-4063-b792-2f5f2120f715!b114925|sdm-di-SDM_DI_PROD-prod!b41064
+//from uaa/clientsecret in sdm-key
+@cmisclientsecret = 2bcba531-62ea-4723-82d2-d44aaa4fe4d4$6ikixfVM8M8jHnqelMMNsopTYzVgHoqr6J3faZPJU7c=
+
+//from uaa/url in sdm-key
+@cmistokenurl = https://apjcoe-x66183k9.authentication.eu10.hana.ondemand.com
 
 
 # @name getToken
