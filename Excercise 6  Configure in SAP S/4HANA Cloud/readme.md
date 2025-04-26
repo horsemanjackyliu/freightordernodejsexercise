@@ -81,10 +81,10 @@ Input the following value, the click **Create** .
 
     ![alt text](image-20.png)
 
-    Name: `O5PDN`
-    Type: `HTTP`
-    URL: `<SAP S/4HANA Cloud API URL>`
-    User: `<Communication User>`
-    Password: `<Communication User Password>`
+    - Name: `O5PDN`
+    - Type: `HTTP`
+    - URL: `<SAP S/4HANA Cloud API URL>`
+    - User: `<Communication User>`
+    - Password: `<Communication User Password>`
 
 </details>
