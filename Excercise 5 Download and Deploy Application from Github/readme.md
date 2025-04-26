@@ -12,10 +12,21 @@ In this card, we will download the application from github repository, then onbo
 - 1. Login into Business Application Studio from BTP subaccount.
 
   ![alt text](image.png)
+  ![alt text](image-11.png)
+  ![alt text](image-12.png)
+  ![alt text](image-13.png)
 
-Please make sure that REST Client has been installed in BAS .
+Please make sure that REST Client has been installed in BAS.
 
-    ![alt text](image-1.png)
+![alt text](image-1.png)
+
+- 2. Clone the application from github repository with following command in BAS terminal.
+
+  ```bash
+  git clone https://github.com/horseanjackyliu/frightorderattach.git
+  ```
+
+  ![alt text](image-14.png)
 
 - 2. Onboarding SAP Document Management Service repository.
 
@@ -50,11 +61,11 @@ Please make sure that REST Client has been installed in BAS .
 
   You can find the api from your BTP subaccount.
 
-  ![alt text](image-7.png)
+![alt text](image-7.png)
 
-  The following screenshot is the result of the user login.
+The following screenshot is the result of the user login.
 
-  ![alt text](image-8.png)
+![alt text](image-8.png)
 
 - 5. Deploy the application into BTP Cloud Foundry Runtime in BAS.
      ![alt text](image-9.png)

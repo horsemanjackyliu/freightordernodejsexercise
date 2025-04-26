@@ -1,0 +1,75 @@
+Getting key em-key for service instance freightorderattach-messaging as jacky.liu02@sap.com...
+
+{
+  "credentials": {
+    "management": [
+      {
+        "oa2": {
+          "clientid": "sb-default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436",
+          "clientsecret": "723263fb-5d58-459b-96ef-30269d463a7c$bA_wVT4_8Y_ReuEyrvW0dI__uAeDbc9H3ndPR6YzbdM=",
+          "granttype": "client_credentials",
+          "tokenendpoint": "https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com/oauth/token"
+        },
+        "uri": "https://enterprise-messaging-hub-backend.cfapps.eu10.hana.ondemand.com"
+      }
+    ],
+    "messaging": [
+      {
+        "broker": {
+          "type": "sapmgw"
+        },
+        "oa2": {
+          "clientid": "sb-default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436",
+          "clientsecret": "723263fb-5d58-459b-96ef-30269d463a7c$bA_wVT4_8Y_ReuEyrvW0dI__uAeDbc9H3ndPR6YzbdM=",
+          "granttype": "client_credentials",
+          "tokenendpoint": "https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com/oauth/token"
+        },
+        "protocol": [
+          "amqp10ws"
+        ],
+        "uri": "wss://enterprise-messaging-messaging-gateway.cfapps.eu10.hana.ondemand.com/protocols/amqp10ws"
+      },
+      {
+        "broker": {
+          "type": "sapmgw"
+        },
+        "oa2": {
+          "clientid": "sb-default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436",
+          "clientsecret": "723263fb-5d58-459b-96ef-30269d463a7c$bA_wVT4_8Y_ReuEyrvW0dI__uAeDbc9H3ndPR6YzbdM=",
+          "granttype": "client_credentials",
+          "tokenendpoint": "https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com/oauth/token"
+        },
+        "protocol": [
+          "mqtt311ws"
+        ],
+        "uri": "wss://enterprise-messaging-messaging-gateway.cfapps.eu10.hana.ondemand.com/protocols/mqtt311ws"
+      },
+      {
+        "broker": {
+          "type": "saprestmgw"
+        },
+        "oa2": {
+          "clientid": "sb-default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436",
+          "clientsecret": "723263fb-5d58-459b-96ef-30269d463a7c$bA_wVT4_8Y_ReuEyrvW0dI__uAeDbc9H3ndPR6YzbdM=",
+          "granttype": "client_credentials",
+          "tokenendpoint": "https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com/oauth/token"
+        },
+        "protocol": [
+          "httprest"
+        ],
+        "uri": "https://enterprise-messaging-pubsub.cfapps.eu10.hana.ondemand.com"
+      }
+    ],
+    "namespace": "cap/freightorder/attach",
+    "serviceinstanceid": "2b879f90-9d70-44a0-a4b9-4e38362349d0",
+    "uaa": {
+      "clientid": "sb-default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436",
+      "clientsecret": "723263fb-5d58-459b-96ef-30269d463a7c$bA_wVT4_8Y_ReuEyrvW0dI__uAeDbc9H3ndPR6YzbdM=",
+      "credential-type": "binding-secret",
+      "url": "https://apjextabapsubdomain.authentication.eu10.hana.ondemand.com",
+      "xsappname": "default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436"
+    },
+    "xsappname": "default-2b879f90-9d70-44a0-a4b9-4e38362349d0-clone!b149617|xbem-service-broker-!b2436"
+  }
+}
+
