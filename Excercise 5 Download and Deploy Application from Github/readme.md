@@ -23,12 +23,14 @@ Please make sure that REST Client has been installed in BAS.
 - 2. Clone the application from github repository with following command in BAS terminal.
 
   ```bash
-  git clone https://github.com/horseanjackyliu/frightorderattach.git
+  git clone https://github.com/horsemanjackyliu/freightorderattach.git
   ```
 
   ![alt text](image-14.png)
+  ![alt text](image-12.png)
+  ![alt text](image-15.png)
 
-- 2. Onboarding SAP Document Management Service repository.
+- 3. Onboarding SAP Document Management Service repository.
 
   Get the service key `sdm-key` content and fill the related information in the file `sdmrepositoryoboard.http`. Then click on `Send Request` under `getToken`.
 
