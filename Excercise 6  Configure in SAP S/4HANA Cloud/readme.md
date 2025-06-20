@@ -83,7 +83,7 @@ Input the following value, the click **Create** .
 
     - Name: `O5PDN`
     - Type: `HTTP`
-    - URL: `<SAP S/4HANA Cloud API URL>`
+    - URL: `<SAP S/4HANA Cloud API URL only host ,no path>`
     - User: `<Communication User>`
     - Password: `<Communication User Password>`
 
