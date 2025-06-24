@@ -72,3 +72,12 @@ The following screenshot is the result of the user login.
 - 5. Deploy the application into BTP Cloud Foundry Runtime in BAS.
      ![alt text](image-9.png)
      ![alt text](image-10.png)
+
+- 6.  Update the repository ID in the backend application `freightorderattach-srv` in BTP Sub Account Cloud Foundry Dev Space.
+
+Click on `Create Variable` in the following screen.
+
+![alt text](image-16.png)
+
+- key: `REPOSITORY_ID`
+- value: <repository id from SDM>
