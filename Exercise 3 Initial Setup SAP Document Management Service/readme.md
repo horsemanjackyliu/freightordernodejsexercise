@@ -48,7 +48,7 @@ In this card, we will create service instance and service key for SAP Document M
 - Description: `SDM Administrator`
   ![alt text](image-10.png)
 
-Add the role `SDM_Admin` and your user account to the role collection `sdm_administrator` in the BTP Sub Account.
+Add the role `SDM_Admin` and your user account to the role collection `sdm_administrator` in the BTP Sub Account.◊
 
 <!--
 
