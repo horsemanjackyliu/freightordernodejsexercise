@@ -154,3 +154,17 @@ btp  assign accounts/entitlement --for-service html5-apps-repo --plan app-runtim
   ```bash
   btp  assign accounts/entitlement --for-service destination --plan lite --amount 1
   ```
+
+  - 12. Check and Assign entitlements of **AI Core Service** to your BTP subaccount.
+
+  Check your subaccount entitlements from **AI Core Service** with the following commands
+
+  ```bash
+  btp list accounts/entitlement | grep aicore
+  ```
+
+  If the results **is blank**, please run the following command to assign **AI Core Service** entitlement to the subaccount.
+
+  ```bash
+  btp  assign accounts/entitlement --for-service aicore --plan extended --amount 1
+  ```
