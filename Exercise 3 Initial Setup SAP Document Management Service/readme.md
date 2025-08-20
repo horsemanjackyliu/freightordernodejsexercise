@@ -24,31 +24,47 @@ In this card, we will create service instance and service key for SAP Document M
 
   ```bash
 
-  cf create-service sdm standard freightorderattach-sdm
-
-  cf create-service-key freightorderattach-sdm sdm-key
+  cf create-service sdm standard freightorderattach-attachments
 
   ```
 
-  ![alt text](image-7.png)
+  <!-- ![alt text](image-7.png) -->
+
+  ![alt text](image-11.png)
+
+  When the service instance's status is **created succeed**, execute the following command to create service key.
+
+  ```bash
+
+  cf create-service-key freightorderattach-attachments sdm-key
+
+  ```
+
+  ![alt text](image-12.png)
 
 - 3. Get the Service key content with the following commands, this content will be used for onboarding sdm repository in BAS.
 
   ```bash
-  cf service-key freightorderattach-sdm sdm-key
+  cf service-key freightorderattach-attachments  sdm-key
   ```
 
-  ![alt text](image-8.png)
+  <!-- ![alt text](image-8.png) -->
+
+  ![alt text](image-13.png)
 
 - 4.  Create Role Collection and assign it to your use account in your BTP Sub Account.
 
-![alt text](image-9.png)
+<!-- ![alt text](image-9.png) -->
+
+![alt text](image-14.png)
 
 - Name: `sdm_administrator`
 - Description: `SDM Administrator`
   ![alt text](image-10.png)
 
-Add the role `SDM_Admin` and your user account to the role collection `sdm_administrator` in the BTP Sub Account.◊
+Add the role `SDM_Admin` and `SDM_User` and your user account to the role collection `sdm_administrator` in the BTP Sub Account.
+
+**Note:** There maybe multi IAS in your subaccount, please assign your user account for the right IAS which used by SAP WorkZone.
 
 <!--
 
