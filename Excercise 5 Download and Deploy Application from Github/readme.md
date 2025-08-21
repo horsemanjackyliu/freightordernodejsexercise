@@ -93,8 +93,11 @@ Click on `Create Variable` in the following screen.
 
 ![alt text](image-19.png)
 
-Select the AI Core instance which you have configured in the BTP Subaccount, then click **Bind** .
+Select the AI Core instance which you have configured in the BTP Subaccount, then click **Bind**.
 
 ![alt text](image-20.png)
 ![alt text](image-21.png)
 ![alt text](image-22.png)
+
+- 8. Restart the back end application.
+     ![alt text](image-23.png)
