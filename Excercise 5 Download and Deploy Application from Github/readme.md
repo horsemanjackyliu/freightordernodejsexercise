@@ -1,6 +1,6 @@
 ## Overview.
 
-In this card, we will download the application from github repository, then onboarding the SDM repository, then deploy the application into BTP Cloud Foundry runtime in BTP Business Application Studio.
+In this card, we will download the application from github repository, then onboarding the SDM repository, then deploy the application into SAP BTP, Cloud Foundry runtime in BTP Business Application Studio.
 
 ## Prerequisites:
 
@@ -74,7 +74,7 @@ The following screenshot is the result of the user login.
 
 ![alt text](image-8.png)
 
-- 5. Deploy the application into BTP Cloud Foundry Runtime in BAS.
+- 5. Deploy the application into SAP BTP, Cloud Foundry runtime in BAS.
      ![alt text](image-9.png)
      ![alt text](image-10.png)
 
